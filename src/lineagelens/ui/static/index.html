@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LineageLens UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <aside class="hero-card">
+        <p class="eyebrow">LineageLens</p>
+        <h1>Trace SQL and Python lineage without leaving the browser.</h1>
+        <p class="lead">
+          Upload ETL assets, review the derived graph, and search lineage paths through a
+          single guided workspace.
+        </p>
+        <ul class="hero-list">
+          <li>Upload and process SQL plus Python scripts.</li>
+          <li>Review jobs, tables, and lineage relationships in one view.</li>
+          <li>Query downstream and upstream context interactively.</li>
+        </ul>
+      </aside>
+
+      <main class="workspace">
+        <section class="panel">
+          <div class="panel-header">
+            <div>
+              <p class="section-label">Step 1</p>
+              <h2>Upload scripts</h2>
+            </div>
+            <button id="loadSampleBtn" class="ghost-button">Load sample data</button>
+          </div>
+          <p class="panel-copy">
+            Add `.sql` or `.py` files. The UI extracts read/write tables, maps ETL jobs, and creates
+            table-level lineage edges.
+          </p>
+          <input id="fileInput" type="file" accept=".sql,.py" multiple />
+          <div id="fileList" class="file-list empty-state">No files uploaded yet.</div>
+          <button id="processBtn" class="primary-button">Process files</button>
+        </section>
+
+        <section class="grid-two">
+          <section class="panel">
+            <div class="panel-header compact">
+              <div>
+                <p class="section-label">Step 2</p>
+                <h2>Lineage overview</h2>
+              </div>
+            </div>
+            <div id="stats" class="stats-grid"></div>
+            <div id="graphSummary" class="graph-summary empty-state">
+              Upload scripts to populate lineage nodes and edges.
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-header compact">
+              <div>
+                <p class="section-label">Step 3</p>
+                <h2>Query lineage</h2>
+              </div>
+            </div>
+            <div class="query-row">
+              <input id="queryInput" type="text" placeholder="Search tables, jobs, or descriptions" />
+              <button id="queryBtn" class="primary-button">Run query</button>
+            </div>
+            <div id="queryResults" class="query-results empty-state">
+              Query results will appear here after processing files.
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

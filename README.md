@@ -38,3 +38,16 @@ source .venv/bin/activate
 pip install -e .[dev]
 pytest
 ```
+
+
+## Browser UI
+Run the lightweight browser UI to upload SQL/Python scripts, inspect lineage, and query the extracted graph.
+
+```bash
+PYTHONPATH=src python -m lineagelens.ui.app --host 127.0.0.1 --port 8000
+```
+
+The UI supports:
+- uploading `.sql` and `.py` ETL assets,
+- building table/job lineage summaries from the uploaded files,
+- querying matching entities and their connected lineage edges.
