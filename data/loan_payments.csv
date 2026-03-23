@@ -1,0 +1,4 @@
+payment_id,loan_id,debit_account_id,payment_date,payment_amount,principal_component,interest_component,payment_status
+60001,40001,20003,2024-01-15,405.33,327.42,77.91,POSTED
+60002,40002,20005,2024-01-12,2100.00,1250.00,850.00,LATE
+60003,40003,20007,2024-01-20,950.00,588.75,361.25,POSTED
