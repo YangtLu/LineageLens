@@ -1,0 +1,3 @@
+alert_id,transaction_id,account_id,customer_id,assigned_employee_id,alert_created_at,alert_type,severity,alert_status
+70001,500006,20005,1004,504,2024-01-20T00:05:00,CARD_ANOMALY,HIGH,OPEN
+70002,500005,20005,1004,504,2024-01-19T02:14:00,ATM_PATTERN,MEDIUM,CLOSED

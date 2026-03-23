@@ -1,0 +1,7 @@
+customer_id,branch_id,first_name,last_name,date_of_birth,email,phone,risk_rating,joined_date
+1001,101,Alicia,Carter,1987-04-12,alicia.carter@examplebank.test,212-555-0101,LOW,2021-01-15
+1002,101,Marcus,Nguyen,1979-09-23,marcus.nguyen@examplebank.test,212-555-0102,MEDIUM,2020-11-02
+1003,102,Priya,Patel,1991-03-02,priya.patel@examplebank.test,617-555-0103,LOW,2022-04-21
+1004,103,Daniel,Reed,1984-12-18,daniel.reed@examplebank.test,312-555-0104,HIGH,2019-06-30
+1005,103,Sofia,Lopez,1995-07-08,sofia.lopez@examplebank.test,312-555-0105,LOW,2023-02-17
+1006,102,Ethan,Brooks,1975-01-27,ethan.brooks@examplebank.test,617-555-0106,MEDIUM,2018-09-11

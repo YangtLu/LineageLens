@@ -1,0 +1,4 @@
+branch_id,branch_code,name,city,state,opened_date
+101,NYC001,Manhattan Flagship,New York,NY,2012-05-14
+102,BOS001,Back Bay Branch,Boston,MA,2015-08-03
+103,CHI001,Loop Branch,Chicago,IL,2018-02-19

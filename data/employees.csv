@@ -1,0 +1,6 @@
+employee_id,branch_id,first_name,last_name,title,hire_date
+501,101,Nina,Shaw,Branch Manager,2016-07-01
+502,101,Owen,Miles,Relationship Manager,2019-03-15
+503,102,Grace,Kim,Loan Officer,2020-10-09
+504,103,Leo,Turner,Fraud Analyst,2021-05-24
+505,103,Maya,Singh,Relationship Manager,2017-12-04

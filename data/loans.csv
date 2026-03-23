@@ -1,0 +1,4 @@
+loan_id,customer_id,account_id,branch_id,officer_employee_id,loan_type,principal_amount,interest_rate,origination_date,maturity_date,loan_status
+40001,1002,20003,101,501,AUTO,22000.00,4.25,2021-06-14,2026-06-14,CURRENT
+40002,1004,20005,103,505,SMALL_BUSINESS,150000.00,6.75,2020-01-09,2027-01-09,DELINQUENT
+40003,1006,20007,102,503,HOME_EQUITY,85000.00,5.10,2019-10-30,2034-10-30,CURRENT

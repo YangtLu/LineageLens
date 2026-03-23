@@ -22,6 +22,7 @@ See [docs/architecture.md](docs/architecture.md).
 - `src/lineagelens/lineage/graph_builder.py`: graph construction service.
 - `src/lineagelens/rag/indexer.py`: GraphRAG indexing interfaces.
 - `src/lineagelens/query/service.py`: high-level query APIs.
+- `data/`: synthetic banking schema, CSV fixtures, and a generator script for testing relational ingestion.
 
 ## Recommended implementation phases
 1. Build metadata ingestion for schemas, columns, comments, and ETL scripts.
